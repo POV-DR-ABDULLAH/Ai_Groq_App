@@ -1,3 +1,4 @@
+@import "tailwindcss";
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,8 +6,8 @@
   text-align: center;
 }
 
-body {
-  background-color: #1e1e1e;
+body{
+  background: linear-gradient(#4B0082, #9F7AEA, #D6396D);
 }
 
 .logo {

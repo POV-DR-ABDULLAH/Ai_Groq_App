@@ -15,7 +15,8 @@ export const requestToGroqAI = async (content) => {
                 content,
             },
         ],
-        model : "llama-3.2-90b-vision-preview",
+        model : "llama3-8b-8192",
     });
     return replay.choices[0].message.content;
 }
+
