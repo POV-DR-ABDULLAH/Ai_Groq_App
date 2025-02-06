@@ -6,5 +6,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-  ]
+  ],
+  base: '/Ai_Groq_App/',
 })
